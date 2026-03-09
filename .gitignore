@@ -1,58 +1,51 @@
-```
-# Environment variables
-.env
-.env.local
-.env.*
-
+```gitignore
 # Dependencies
-venv/
-.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 env/
-ENV/
-
-# Jupyter notebooks
-.ipynb_checkpoints/
-*.ipynb*
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
+venv/
+.venv/
+.ENV
+.ENV.local
+.env
+.env.local
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.sublime-workspace
+.pytest_cache/
+.hypothesis/
+.coverage*
+htmlcov/
+.installed.cfg
+.lib/
 .eggs/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+bin/
 lib/
 lib64/
-parts/
-sdist/
-var/
+share/python-wheels/
 wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# System
+MANIFEST
 .DS_Store
 Thumbs.db
 ```
